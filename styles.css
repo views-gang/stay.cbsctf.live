@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+body {
+	background: black;
+	color: #F0E8DE;
+	font-family: 'Fira Code', monospace;
+}
+
+
+#bg {
+  position: fixed; 
+  z-index: 1;
+  top: 0; 
+  left: 0; 
+
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+.main {
+	z-index: 5;
+	width: 80%;
+	height: 80%;
+	background: black;
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 0.5vw solid #868B8D;
+    font-size: 2vw;
+}
+
+.bar {
+	height: 5%;
+	width: 100%;
+	border-bottom: 0.5vw solid #868B8D;
+}
+
+
+.content {
+	padding: 2vw;
+	height: 80%;
+	width: 95%;
+	overflow-y: scroll;
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.prompt-cbs {
+	color:#55B179;
+}
+
+.prompt-home {
+	color:#00AAA1;
+}
+
+.prompt-shell {
+	
+}
+
+
+.red {
+	color:#AC363F;
+}
+
+.other-red {
+	color:#F1767D;
+}
+
+
+a {
+	color: #003A6A;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #003A6A;
+	text-decoration: underline;
+}
+
+a:visited {
+color: #003A6A;
+}
+
+.blink {
+  animation: blink-animation 0.5s steps(5, start) infinite;
+  -webkit-animation: blink-animation 0.5s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}

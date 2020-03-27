@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap');
 
 body {
 	background: black;
 	color: #F0E8DE;
 	font-family: 'Fira Code', monospace;
+	font-weight: 400;
 }
 
 
@@ -53,14 +54,16 @@ body {
 
 .prompt-cbs {
 	color:#55B179;
+	font-weight: 600;
 }
 
 .prompt-home {
 	color:#00AAA1;
+	font-weight: 600;
 }
 
 .prompt-shell {
-	
+	font-weight: 600;
 }
 
 
